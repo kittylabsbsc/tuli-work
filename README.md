@@ -4,4 +4,4 @@
 
 Open protocols demand open access. Tuli Gallery is a community-operated interface to the [Tuli Protocol](https://tuli.ink).
 
-[MIT License](https://github.com/Anish-Agnihotri/tuli.work/blob/master/LICENSE).
+[MIT License](https://github.com/kittylabsbsc/tuli-work/blob/master/LICENSE).

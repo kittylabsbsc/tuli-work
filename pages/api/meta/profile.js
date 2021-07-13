@@ -50,7 +50,7 @@ const generateHTML = (media, address) => {
       }
     </style>
     <div>
-      <img class="tuli" src="https://tuli.work/logo_orb.png" alt="Orb" />
+      <img class="tuli" src="https://tuli.work/logo_tuli.png" alt="Tuli" />
       <h2 class="address">${
         address.substr(0, 5) + "..." + address.slice(address.length - 5)
       }
