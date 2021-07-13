@@ -69,8 +69,8 @@ export default function Create() {
       {!address ? (
         // If not authenticated, display unauthenticated state
         <div className={styles.create__unauthenticated}>
-          <h2>Please authenticate</h2>
-          <p>You must authorize with your wallet to mint media.</p>
+          <h2>Please authenticate first</h2>
+          <p>You must authorize with your wallet to mint NFT.</p>
 
           {/* Authenticate dApp */}
           <button onClick={authenticateWithLoading} disabled={loading}>
@@ -83,7 +83,7 @@ export default function Create() {
           <div className={styles.create__grid}>
             {/* Creation form */}
             <div className={styles.create__grid_left}>
-              <h2>Create Media</h2>
+              <h2>&nbsp;&nbsp;&nbsp;Create NFT</h2>
 
               <div className={styles.create__upload}>
                 <div>
@@ -108,6 +108,7 @@ export default function Create() {
                         "image/gif",
                         "video/mp4",
                         "video/quicktime",
+                        "video/avi",
                         "audio/mpeg",
                         "audio/wav",
                         "text/plain",
@@ -125,7 +126,7 @@ export default function Create() {
                             <span>
                               {uploadName
                                 ? uploadName
-                                : "You can drag and drop file here."}
+                                : "You can drag and drop media file here."}
                             </span>
                           </div>
                         </section>
@@ -205,7 +206,7 @@ export default function Create() {
                       loading // Global loading state
                     }
                   >
-                    {loading ? "Minting..." : "Mint Media"}
+                    {loading ? "Minting..." : "Mint NFT"}
                   </button>
                 </div>
               </div>
@@ -213,7 +214,7 @@ export default function Create() {
 
             {/* Preview grid section */}
             <div className={styles.create__grid_right}>
-              <h2>Preview</h2>
+              <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Your NFT Preview</h2>
               <div className={styles.create__preview}>
                 {/* Display post with dynamic content to preview */}
                 <Post

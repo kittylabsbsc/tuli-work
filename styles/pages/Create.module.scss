@@ -47,11 +47,19 @@
 // Create page authenticated state
 .create {
   display: block;
-  margin: 0px auto;
+  margin: 10px auto;
+  padding: 20px auto;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1320px;
   padding-bottom: 50px;
-
+  border: 4px solid rgb(219, 219, 219);
+  width: calc(100% - 4px);
+  display: flex;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  flex-direction: column;
+  box-shadow: 5px 10px #888888;
+  background-color: #fff;
   // Create grid layout
   .create__grid {
     display: inline-grid;

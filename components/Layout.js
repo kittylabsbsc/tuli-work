@@ -22,8 +22,8 @@ function Meta({ isProfile }) {
   return (
     <Head>
       {/* Primary Meta Tags */}
-      <title>Tuli Gallery</title>
-      <meta name="title" content="Tuli OpenGallery" />
+      <title>Tuli.Work NFT Gallery</title>
+      <meta name="title" content="Tuli NFT OpenGallery for Multiple Blockchains." />
       <meta
         name="description"
         content="Community-based minimal NFT interface to Tuli Protocol."
@@ -41,7 +41,7 @@ function Meta({ isProfile }) {
       {/* Twitter */}
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://tuli.work/" />
-      <meta property="twitter:title" content="Tuli Gallery" />
+      <meta property="twitter:title" content="Tuli.Work NFT Gallery" />
       <meta
         property="twitter:description"
         content="Community-based minimal NFT interface to Tuli Protocol."

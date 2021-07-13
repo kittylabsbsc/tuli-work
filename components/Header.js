@@ -16,17 +16,28 @@ export default function Header() {
 
   return (
     <div className={styles.header}>
-      {/* Logo */}
       <div className={styles.header__logo}>
         <Link href="/">
           <a>
             <img src="/logo_tuli.png" alt="Tuli" />
           </a>
-        </Link>
+        </Link> <h1> Tuli.Work </h1>
       </div>
 
       {/* Menu */}
       <div className={styles.header__menu}>
+      <Link href={`https://eth.tuli.work`}>
+       <a className={styles.header__menu_button_black}>ETH</a>
+       </Link>
+       <Link href={`https://matic.tuli.work`}>
+        <a className={styles.header__menu_button_black}>Polygon</a>
+       </Link>
+       <Link href={`https://rinkeby.tuli.work`}>
+        <a className={styles.header__menu_button_black}>Rinkeby</a>
+        </Link>
+        <Link href={`https://tuli.work`}>
+         <a className={styles.header__menu_button_black}>BSC</a>
+        </Link>
         {address ? (
           // If user is authenticated
           <>
@@ -38,7 +49,7 @@ export default function Header() {
               </a>
             </Link>
             <Link href={`/create`}>
-              <a className={styles.header__menu_button_black}>Create</a>
+              <a className={styles.header__menu_button_black}>Create NFT</a>
             </Link>
           </>
         ) : (

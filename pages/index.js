@@ -69,7 +69,9 @@ export default function Home() {
 
   return (
     <Layout>
-      {/* Subheader disclaimer */}
+  { /*  <div className={styles.header}>
+    Tuli.Work Gallery
+    </div> */}
       <div className={styles.subheader}>
         <span>
           <b>Tuli.Work</b> is a fully{" "}

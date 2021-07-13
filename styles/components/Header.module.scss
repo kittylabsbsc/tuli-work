@@ -1,15 +1,21 @@
 // Page hader
 .header {
-  padding: 40px 30px 30px 30px;
-  max-width: 1460px;
-  margin: 0px auto;
+  max-width: 100%;
+  padding-right: 4px;
+  padding-left: 4px;
+  margin-right: 2px;
+  margin-bottom: 40px;
   display: flex;
   justify-content: space-between;
   -webkit-box-pack: justify;
   align-items: center;
+  background-color: #242424;
+  box-shadow: 2px 4px #0B0818;
   position: sticky;
   top: 0px;
   z-index: 9999;
+  border-radius: 14px;
+  color: #fff;
 
   div {
     width: auto;
@@ -41,6 +47,7 @@
       cursor: pointer;
       text-decoration: none;
       margin: 0px 5px;
+      border-radius: 16px;
     }
 
     button:last-of-type,
@@ -66,7 +73,7 @@
 
 .header__menu_button_black {
   color: #fff;
-  background-color: #000;
+  background-color: #0B0818;
 }
 
 // Responsiveness
