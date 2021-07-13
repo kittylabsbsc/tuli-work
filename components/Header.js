@@ -29,10 +29,10 @@ export default function Header() {
       <Link href={`https://eth.tuli.work`}>
        <a className={styles.header__menu_button_black}>ETH</a>
        </Link>
-       <Link href={`https://matic.tuli.work`}>
+       <Link href={`https://m.tuli.work`}>
         <a className={styles.header__menu_button_black}>Polygon</a>
        </Link>
-       <Link href={`https://rinkeby.tuli.work`}>
+       <Link href={`https://r.tuli.work`}>
         <a className={styles.header__menu_button_black}>Rinkeby</a>
         </Link>
         <Link href={`https://tuli.work`}>
