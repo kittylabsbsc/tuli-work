@@ -1,4 +1,4 @@
-<img src="https://tuli.work/logo_orb.png" height="50" width="50">
+<img src="https://tuli.work/logo_tuli.png" height="50" width="50">
 
 # Tuli Gallery
 
