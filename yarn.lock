@@ -825,29 +825,29 @@
     "@truffle/interface-adapter" "^0.5.2"
     web3 "1.4.0"
 
-"@tulilabs/auction-house@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@tulilabs/auction-house/-/auction-house-1.1.2.tgz#8cdbb08cf202d5bbb245abe9310634ee437a646e"
-  integrity sha512-zyrheL0UWWTK6tGC6dePfLGQJypWUewCTmDf29ueszu7HQ72ZFvnHBcxlGWp6RwwHxFugbj4CW3BMJqIF7LJ/g==
+"@tulilabs/auction-house@^1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@tulilabs/auction-house/-/auction-house-1.1.3.tgz#d4a3308c0ce87b894fdacfb3f18220f427b17aad"
+  integrity sha512-SDZvPE5WZucpcLpVVE0kV5pAQ9AWlNdE0KBAfwbvWGB5XFN+2oAOeIf8pIuodpK5ihFCxijWIUguRVCRCt5+aA==
   dependencies:
     "@openzeppelin/contracts" "^3.2.0"
-    "@tulilabs/core" "^1.1.0"
+    "@tulilabs/core" "^1.1.2"
     dotenv "^8.2.0"
     fs-extra "^9.1.0"
     minimist "^1.2.5"
     solidity-coverage "^0.7.16"
 
-"@tulilabs/core@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@tulilabs/core/-/core-1.1.0.tgz#3dd5ccd18c6b9ba0800dbea28d0364693c51f75e"
-  integrity sha512-ivLnrNVDXdAhxzzKNRc4qdSg8sgSv+pE9qCndwdeHOdi3X77tHRhDQG29RRlmMAYjMMyioWXrwcFV2D5qOpUOQ==
+"@tulilabs/core@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@tulilabs/core/-/core-1.1.2.tgz#8ba6ecc5ef6cf6db51f5db1447a4a18105372e84"
+  integrity sha512-jBImI3GErQgGwbasXGu3j/CfG/vkBkUFhPHrh+2LFX8lo5CR6jy2Wmb25mrbA2JkL5ur9/i8elSPVEZmxWV4Lw==
   dependencies:
     ethers "^5.0.19"
 
-"@tulilabs/media-metadata-schemas@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@tulilabs/media-metadata-schemas/-/media-metadata-schemas-0.1.0.tgz#704043ed05c4614c0d844a975663d1568d7f83e8"
-  integrity sha512-csaXh21KpCoov6Tid5nbsF7/YlSRYkRVohl5issYPdjQfGnWbAMVoPpycItpNJSdj5pHkdECYRKC3M4nt7S/EQ==
+"@tulilabs/media-metadata-schemas@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@tulilabs/media-metadata-schemas/-/media-metadata-schemas-1.1.1.tgz#b48e8da893334be23f9d3afd73057475f3b5bb17"
+  integrity sha512-i5VjdFsGteQFdmvoqwzmkLTodwalqvFyLe9v4Cc80FLEWlSwMr50YCoOxjth165qUGEcl9pJ5lv/A3Dw8J4+Wg==
   dependencies:
     "@types/jsonschema" "^1.1.1"
     jsonschema "^1.4.0"
@@ -855,14 +855,14 @@
     tslib "^2.0.3"
     typescript "^4.1.3"
 
-"@tulilabs/tdk@^1.2.2":
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/@tulilabs/tdk/-/tdk-1.2.2.tgz#5319e89f517d3c802300c19a19b6537ba7dec3eb"
-  integrity sha512-PmafFD+FIgDyEJ2leCJvjrJEGqhYnaXDAvu61NI1sbZwPcb5nVWDKEApCeGnvvGtMXXELeK/HLnpzPGXm5Np8w==
+"@tulilabs/tdk@^1.2.4":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@tulilabs/tdk/-/tdk-1.2.4.tgz#8a7df7a1a778e6ad1910331cb7394f20b621767a"
+  integrity sha512-ySaZFJJNpWtVGI/tvVg3Ke9r4y0LZ2BPhrvw7dR+pB/oaFmrAUyNIxODRnq2wcl61srL8EUEcFvlOs7dNyD0Ew==
   dependencies:
-    "@tulilabs/auction-house" "^1.1.2"
-    "@tulilabs/core" "^1.1.0"
-    "@tulilabs/media-metadata-schemas" "^0.1.0"
+    "@tulilabs/auction-house" "^1.1.3"
+    "@tulilabs/core" "^1.1.2"
+    "@tulilabs/media-metadata-schemas" "^1.1.1"
     axios "^0.21.1"
     eth-sig-util "^3.0.0"
     ethereumjs-util "^7.0.7"
@@ -4756,6 +4756,11 @@ isstream@~0.1.2:
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
   integrity sha1-R+Y/evVa+m+S4VAOaQ64uFKcCZo=
 
+istanbul-badges-readme@^1.2.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/istanbul-badges-readme/-/istanbul-badges-readme-1.4.0.tgz#4c635e9761056e214da135ed2f338b9711b5815d"
+  integrity sha512-YujvYtTjSGwALCIAtSWsV2c4rLTyIEVm3vSLAGLXsUm/T8xteaJyV6dxGWFKmuCcDnVq1IBnbGYDwq2byS7bYg==
+
 isurl@^1.0.0-alpha5:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/isurl/-/isurl-1.0.0.tgz#b27f4f49f3cdaa3ea44a0a5b7f3462e6edc39d67"
@@ -8137,11 +8142,6 @@ uuid@^3.3.2:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
   integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
-
-uuid@^8.3.2:
-  version "8.3.2"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
-  integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
 
 varint@^5.0.0, varint@^5.0.2:
   version "5.0.2"
